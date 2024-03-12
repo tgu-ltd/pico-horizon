@@ -1,0 +1,8 @@
+# Files to be uploaded to the board. Use command: rshell -p /dev/ttyACM0 --baud 115200 -f upload_files.rshell
+
+cp ./main.py /pyboard/
+cp ./boom.py /pyboard/
+cp ./reset.py /pyboard/
+cp ./ak8963.py /pyboard/
+cp ./micropython-mpu9250/mpu6500.py /pyboard/
+cp ./micropython-mpu9250/mpu9250.py /pyboard/
